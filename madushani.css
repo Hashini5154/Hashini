@@ -1,0 +1,99 @@
+h1{ 
+    color: blueviolet;
+    text-align: center;
+}
+h4{
+    color: crimson;
+}
+h3{
+    color: darkmagenta;
+}
+th{
+    color: chocolate;
+}
+
+img{    
+   width: 30%;
+   height: 30%;
+}
+body{
+      background-color: coral; 
+}
+ table{
+    border:10px double blue;
+}
+th,td {
+    border: 5px double blue;
+    padding: 4px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin-left:70px;
+}
+table{
+    margin-left: 70px;
+}
+body{
+    background-image: url("hsd.jpg");
+   }
+img{
+    width: 175px;
+    height: 175px;
+    border-radius: 175px;
+    margin-left: 80px;
+}
+#sh4{
+    background-color: coral;
+}
+#sh2{
+    margin-left: 60px;
+}
+th{
+    color: mediumspringgreen;
+}
+
+h1{
+    background-color: burlywood;
+}
+@media(min-width:400px){
+    #sh2{background-color:green ;}
+}
+@media (min-width:600px){
+    #sh2{background-color:aquamarine ;}
+}
+@media (min-width:800px){
+    #sh2{background-color: burlywood;}
+}
+@media (min-width:400px){
+    #sh1{background-color:yellow;}
+}
+@media (min-width:600px){
+    #sh1{background-color:rgb(255, 179, 0);}
+}
+@media (min-width:400px){
+    #sh3{background-color:rgb(0, 213, 255);}
+}   
+@media (min-width:600px){
+    #sh3{background-color:rgb(0, 255, 145);}
+}      
+#sh1:hover{    
+    -webkit-animation-name:sh12;
+    -webkit-animation-duration: 25;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in-out;
+}
+@keyframes sh12 {
+    from{
+        opacity: 0.5;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+}    
+
